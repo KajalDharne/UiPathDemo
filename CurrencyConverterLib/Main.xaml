@@ -1,0 +1,300 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="916.6666666666666,1943.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="572,1920.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Double" Name="INR" />
+        <Variable x:TypeArguments="x:Double" Name="USD" />
+        <Variable x:TypeArguments="sd:DataTable" Name="Item" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ReadRange WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[Item]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="538,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\USER\Documents\UiPath\CurrencyConverterLib\Currency.xlsx">
+        <ui:ReadRange.Range>
+          <InArgument x:TypeArguments="x:String">
+            <Literal x:TypeArguments="x:String" Value="" />
+          </InArgument>
+        </ui:ReadRange.Range>
+      </ui:ReadRange>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Currency Converter  Foreign Exchange Rat" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="538,1718" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="82213d56-dd25-4063-bb21-bb96c6304219" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="504,1476" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NSelectItem AlterIfDisabled="True" ContinueOnError="True" DisplayName="Select Item 'BUTTON'" HealingAgentBehavior="RecommendationOnly" sap:VirtualizedContainerService.HintSize="470,191.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="INR Indian Rupee" ScopeIdentifier="82213d56-dd25-4063-bb21-bb96c6304219" Version="V4">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="50">
+                    <x:String>EUREuro</x:String>
+                    <x:String>INRIndian Rupee</x:String>
+                    <x:String>USDUS Dollar</x:String>
+                    <x:String>GBPBritish Pound</x:String>
+                    <x:String>JPYJapanese Yen</x:String>
+                    <x:String>1INCH1INCH</x:String>
+                    <x:String>AAVEAAVE</x:String>
+                    <x:String>ADACardano</x:String>
+                    <x:String>AEDUtd. Arab Emir. Dirham</x:String>
+                    <x:String>AFNAfghan Afghani</x:String>
+                    <x:String>ALGOAlgorand</x:String>
+                    <x:String>ALLAlbanian Lek</x:String>
+                    <x:String>AMDArmenian Dram</x:String>
+                    <x:String>AMPAmp</x:String>
+                    <x:String>ANGNL Antillian Guilder</x:String>
+                    <x:String>ANKRAnkr Network</x:String>
+                    <x:String>AOAAngolan Kwanza</x:String>
+                    <x:String>APEApeCoin</x:String>
+                    <x:String>ARArweave</x:String>
+                    <x:String>ARSArgentine Peso</x:String>
+                    <x:String>ATOMCosmos</x:String>
+                    <x:String>AUDAustralian Dollar</x:String>
+                    <x:String>AVAXAvalanche</x:String>
+                    <x:String>AWGAruban Florin</x:String>
+                    <x:String>AXSAxie Infinity</x:String>
+                    <x:String>AZNAzerbaijan New Manat</x:String>
+                    <x:String>BALBalancer</x:String>
+                    <x:String>BAMBosnian Mark</x:String>
+                    <x:String>BANDBand Protocol</x:String>
+                    <x:String>BATBasic Attention Token</x:String>
+                    <x:String>BBDBarbados Dollar</x:String>
+                    <x:String>BCHBitcoin Cash</x:String>
+                    <x:String>BCHSVBitcoin Cash SV</x:String>
+                    <x:String>BDTBangladeshi Taka</x:String>
+                    <x:String>BGNBulgarian Lev</x:String>
+                    <x:String>BHDBahraini Dinar</x:String>
+                    <x:String>BIFBurundi Franc</x:String>
+                    <x:String>BITBitDAO</x:String>
+                    <x:String>BMDBermudian Dollar</x:String>
+                    <x:String>BNBBinance Coin</x:String>
+                    <x:String>BNDBrunei Dollar</x:String>
+                    <x:String>BOBBolivian Boliviano</x:String>
+                    <x:String>BONEBone</x:String>
+                    <x:String>BRLBrazilian Real</x:String>
+                    <x:String>BSDBahamian Dollar</x:String>
+                    <x:String>BSVBitcoin SV</x:String>
+                    <x:String>BTCBitcoin</x:String>
+                    <x:String>BTCSTBTC Standard Hashrate Token</x:String>
+                    <x:String>BTGBitcoin Gold</x:String>
+                    <x:String>BTNBhutan Ngultrum</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="oanda.com/currency-converter/en" CVScreenId="1a559de3-99b1-46ad-8ca4-f1b6d62f7f60" ContentHash="k5LfJbeD3kWdtLFK8_pJNw" CvTextArea="215, 632, 145, 25" CvTextArgument="EUR Euro" CvType="Text" DesignTimeRectangle="127, 596, 488, 103" ElementType="DropDown" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='DIV' /&gt;" Guid="9ea20648-d5d5-43ce-98b4-64f64502be2c" InformativeScreenshot="f8b546ccf7b038188b4ca8ae346ab513.png" Reference="sLl7P6LSUkueuzbqnlCI8A/qX4jJRTzGU21neIbQavu7Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="1a559de3-99b1-46ad-8ca4-f1b6d62f7f60" CvTextArea="80, 456, 535, 48" CvTextArgument="231 Euro to US Dollar" CvType="Text" DesignTimeRectangle="83, 458, 470, 47" FuzzySelectorArgument="&lt;webctrl type='' class='h1_title_indexed' parentid='scroll-wrap' tag='DIV' aaname='                to           ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='231 Euro to US Dollar' /&gt;" Guid="1454cda0-b9aa-4b9d-9e62-ef255fb17478" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Item]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="470,1222" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,1044.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_6">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Double">[INR]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Double">[CDbl(CurrentRow("INR"))]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="2" DelayBetweenKeys="1" DisplayName="Type Into 'Input(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="82213d56-dd25-4063-bb21-bb96c6304219" Text="[INR.ToString()]" Version="V4">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="oanda.com/currency-converter/en" CVScreenId="7174c15f-0eaa-4ae3-8e62-af14b723f2fc" ContentHash="cNQZChAGDECZDGCyoa-5kQ" CvElementArea="122, 717, 497, 113" CvType="InputBox" DesignTimeRectangle="127, 723, 488, 105" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='numberformat' tag='INPUT' /&gt;" Guid="a09c14e9-99b6-406a-a52a-a8b0a8d5d08e" InformativeScreenshot="69886f2cac284ddb07a9143f09bb632d.png" Reference="sLl7P6LSUkueuzbqnlCI8A/2vBg3iWUTUuHlkFeBiqPJw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="127, 596, 488, 103" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='cc-main-conversion-block' tag='DIV' /&gt;" Guid="5c621791-423e-45d0-bb64-b99cc85b65f3" SearchSteps="Selector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <uix:NTypeInto.VerifyOptions>
+                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          </uix:VerifyExecutionTypeIntoOptions>
+                        </uix:NTypeInto.VerifyOptions>
+                      </uix:NTypeInto>
+                      <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'INPUT'" sap:VirtualizedContainerService.HintSize="434,139.33333333333334" sap2010:WorkflowViewState.IdRef="GetValue_4">
+                        <ui:GetValue.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5bfbfee8-243c-4ebe-a27a-508df1fff12c" InformativeScreenshot="8c8db99287ac516a1f150cd704905674" Selector="&lt;webctrl name='numberformat' tabindex='4' tag='INPUT' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:GetValue.Target>
+                        <ui:GetValue.Value>
+                          <OutArgument x:TypeArguments="x:Double">[USD]</OutArgument>
+                        </ui:GetValue.Value>
+                      </ui:GetValue>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,117.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Object">[CurrentRow("USD")]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Object">[USD]</InArgument>
+                        </Assign.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Assign>
+                      <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[Item]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="434,148" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="Sheet1" WorkbookPath="C:\Users\USER\Documents\UiPath\CurrencyConverterLib\Currency.xlsx" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,170" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[USD.ToString]" />
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Edge" ContentHash="2a1DKrfF4kexpkwYoyj3cA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALGSURBVFhHY2BgYGDgUwpW5VIIWcutEPKRWyHkP43xR5BdIDtBdjPwKoaqcyuEvMeikNb4PchuBqjP/3MoeNIVg+wE2c0AC3Z0BbTGYAfIh3wGOQDMQVdAawyzl6YOEMyM+y/anQHGgllxKHJ0cYDs3vL/CpdqwVi4MglFjuYO4LYJhFsOwjweqHbQ3AFCeQlwy+WOVv7nUPRAkae5AyTm5cEdIDE7F0Oeqg4QzI7/L7kgH4xFW9PAvpU7XgV3gGBOPIYeqjpAen0x3DLR9vT/vF6hKPHPbRWAoYdqDuDS8/2vcLEObhlfeMR/4dpkOF9mdxmGHhCmmgMEEqLhlsmfrfnPqen9X2plIVxMrC8TQw8I43VAddfc/yfOXQXjOcu3YmhGxiALYJaBLAY5AOQQmBjIgeh6CDograL3Pwx8+/7jP4+aH4YBMCy7G6mwqUn+z6nl858vOAKOOTW8MfQQdICseTTcASDgFV/1X889/X9sQQcYB6bWQwyxCoBbDsKgxIduES6M1wEgfOPOI7gD+mat/h+W1Qzn//nz97+IQSg4e8EsB2U79MIGHybogNnLtsAtPH3xxn8BncD/v//8gYvF5LeDCxiYAyTm5mGYgQ8TdEBETivcMpCPBfWC/p88dw0utmDVDnARC3MAqOhFNwMfJugAkIWrtxyAY0PPzP9d01bAHXD/2UuU+AdVPuhm4MMEHYANu0aXwx0AAkbX+8CWg6pddLWEMFkO4FL1+f/56ze4A4ofbwI7QGwi9sIGHybLASC869AZuAM2f7gKdoBAEvbCBh8m2wFVnXPgDnj3++t/hYv1/7n0fTHUEcJkO8DEJxvuABBwPDgRQw0xmGwHgPC0Azv/zz13AIzd2psx5InBFDmAGhjZAQPbMRnwrhmvQrAGqKOIroDWGNw5VQjWgPeQoSHxCRY3NMSfQHaBe8ZAAACB9JbZjKqfKgAAAABJRU5ErkJggg==" InformativeScreenshot="5d97c9191da84fd41ec95fb83cc9ee51.jpg" Reference="sLl7P6LSUkueuzbqnlCI8A/mAAegCglSESkY7DwwvZj3g" Selector="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" Url="https://www.oanda.com/currency-converter/en/?from=EUR&amp;to=USD&amp;amount=1" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
