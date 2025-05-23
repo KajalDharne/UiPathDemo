@@ -1,0 +1,14 @@
+﻿{
+  "Name": "msedge.exe Currency Con…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "4cKqkQVVeUCuRhCRCkISCw",
+  "Reference": "sLl7P6LSUkueuzbqnlCI8A/4cKqkQVVeUCuRhCRCkISCw",
+  "ParentRef": "sLl7P6LSUkueuzbqnlCI8A/mAAegCglSESkY7DwwvZj3g",
+  "Created": "2025-05-16T11:22:44.0580466Z",
+  "Updated": "2025-05-16T11:22:44.0580466Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

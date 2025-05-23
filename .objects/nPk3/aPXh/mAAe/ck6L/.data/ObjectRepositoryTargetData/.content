@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9tv_1J2_Q0ehTjlRjxx5EA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="62b5ea98-2d18-46e5-9eed-cdd11cd333d8" CvTextArea="158, 696, 16, 33" CvTextArgument="1" CvType="Text" DesignTimeRectangle="127, 661, 488, 105" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='numberformat' tag='INPUT' /&gt;" Guid="77124302-461f-47ab-9dd4-22deefb5c927" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="62b5ea98-2d18-46e5-9eed-cdd11cd333d8" CvTextArea="308, 573, 147, 27" CvTextArgument="Indian Rupee" CvType="Text" DesignTimeRectangle="291, 557, 227, 57" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='baseCurrency_currency_autocomplete' tag='INPUT' /&gt;" Guid="5bd64bcf-bdd1-4ce5-aa8a-29e2629fbc8f" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd6a5c557029cba0cea3b1807bb9a51a.png" xmlns="">0dHmlBgLBwUqPoQDyL2Ux_w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

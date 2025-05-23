@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uPRMpk1gvUiZJ-sG5whCmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="2d8f4df5-f46c-4342-b546-e71c3856a0ad" CvElementArea="126, 620, 491, 105" CvType="InputBox" DesignTimeRectangle="291, 644, 227, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='baseCurrency_currency_autocomplete' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="df381b04-e162-44d2-9760-ef29f0e6ab9f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="964e7768-9322-4664-a2e7-77b8b7fef6e0" CvElementArea="564, 652, 38, 39" CvType="ArrowButton" DesignTimeRectangle="566, 654, 36, 36" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='cc-main-conversion-block' tag='svg' /&gt;" Guid="eb7920a0-ca72-486a-9a0f-88f664389302" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a75dce973ec232c21423fd152a23b12.png" xmlns="">0kJ1ZHfbkVUG9peIX9MFhMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

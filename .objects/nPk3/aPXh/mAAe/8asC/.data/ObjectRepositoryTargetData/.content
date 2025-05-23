@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gXKX6arEj0eAzzCY6L0KUA" Reference="sLl7P6LSUkueuzbqnlCI8A/8asCW0Terk-N8_atytQyDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="72a9d3a4-fbe2-4538-8118-eb36c0cdb3be" CvTextArea="219, 572, 237, 28" CvTextArgument="INR Indian Rupee" CvType="Text" DesignTimeRectangle="127, 534, 488, 103" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='cc-main-conversion-block' tag='DIV' /&gt;" Guid="d604e104-3a04-477c-bec8-3d2dfb3e6216" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="72a9d3a4-fbe2-4538-8118-eb36c0cdb3be" CvTextArea="158, 696, 16, 33" CvTextArgument="1" CvType="Text" DesignTimeRectangle="127, 661, 488, 105" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='numberformat' tag='INPUT' /&gt;" Guid="8e0f19d6-0844-47a0-980e-1e2f448f6b00" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa0f7dfbff5f5d197661db1f77bee7eb.png" xmlns="">0a7Owu39sfkyVwi1-kfT59g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

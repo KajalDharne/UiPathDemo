@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INRIndian Rupee​(1)",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "m2xfLETl4kqX_YxZvD-tuw",
+  "Reference": "sLl7P6LSUkueuzbqnlCI8A/m2xfLETl4kqX_YxZvD-tuw",
+  "ParentRef": "sLl7P6LSUkueuzbqnlCI8A/mAAegCglSESkY7DwwvZj3g",
+  "Created": "2025-05-19T06:12:11.735019Z",
+  "Updated": "2025-05-19T06:12:11.735019Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

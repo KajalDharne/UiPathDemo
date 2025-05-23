@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Indian Rupee",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZE5ZVIRJnEiUZuPTYZ4ehw",
+  "Reference": "sLl7P6LSUkueuzbqnlCI8A/ZE5ZVIRJnEiUZuPTYZ4ehw",
+  "ParentRef": "sLl7P6LSUkueuzbqnlCI8A/mAAegCglSESkY7DwwvZj3g",
+  "Created": "2025-05-19T06:31:06.5887023Z",
+  "Updated": "2025-05-19T06:31:06.5887023Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

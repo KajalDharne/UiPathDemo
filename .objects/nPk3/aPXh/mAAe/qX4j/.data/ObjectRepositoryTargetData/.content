@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k5LfJbeD3kWdtLFK8_pJNw" Reference="sLl7P6LSUkueuzbqnlCI8A/qX4jJRTzGU21neIbQavu7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="1a559de3-99b1-46ad-8ca4-f1b6d62f7f60" CvTextArea="215, 632, 145, 25" CvTextArgument="EUR Euro" CvType="Text" DesignTimeRectangle="127, 596, 488, 103" ElementType="DropDown" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='DIV' /&gt;" Guid="9ea20648-d5d5-43ce-98b4-64f64502be2c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1a559de3-99b1-46ad-8ca4-f1b6d62f7f60" CvTextArea="80, 456, 535, 48" CvTextArgument="231 Euro to US Dollar" CvType="Text" DesignTimeRectangle="83, 458, 470, 47" FuzzySelectorArgument="&lt;webctrl type='' class='h1_title_indexed' parentid='scroll-wrap' tag='DIV' aaname='                to           ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='231 Euro to US Dollar' /&gt;" Guid="1454cda0-b9aa-4b9d-9e62-ef255fb17478" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f8b546ccf7b038188b4ca8ae346ab513.png" xmlns="">0VxovBxYV00mipu3KwF1deg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

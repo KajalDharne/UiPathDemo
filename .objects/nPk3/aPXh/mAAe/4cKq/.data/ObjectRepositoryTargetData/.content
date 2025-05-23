@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZM5gzwSERk2Uiu1iZLcmew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="594597db-f9bd-4fe4-8798-d161de6bd038" CvTextArea="219, 632, 239, 28" CvTextArgument="INR Indian Rupee" CvType="Text" DesignTimeRectangle="127, 594, 488, 103" ElementType="DropDown" FullSelectorArgument="&lt;webctrl aria-role='combobox' tag='DIV' /&gt;" Guid="efdd5bcb-c6d0-407f-8580-68e581379f5a" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="594597db-f9bd-4fe4-8798-d161de6bd038" CvTextArea="122, 456, 328, 59" CvTextArgument="Indian Rupee" CvType="Text" DesignTimeRectangle="123, 460, 325, 60" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='base-name' parentid='scroll-wrap' tag='SPAN' type='' aaname='Indian Rupee' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Indian Rupee' /&gt;" Guid="65e79224-6571-4fdb-8619-e5bc38fd423a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7885cf74d5357c24581a739ea4957c32.png" xmlns="">0D3C9Jx1g7UWby9F_EpHLNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

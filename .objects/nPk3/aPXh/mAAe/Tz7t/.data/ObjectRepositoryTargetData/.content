@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9LR9d2G_yE2e-eMBTixqXQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" DesignTimeRectangle="291, 617, 227, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='baseCurrency_currency_autocomplete' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c360e6ba-4fad-4a00-b360-15bedb927cda" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d4e0da0c-f605-45d2-b672-35dbc9d964c6" CvTextArea="81, 456, 678, 48" CvTextArgument="1 Indian Rupee to US Dollar" CvType="Text" DesignTimeRectangle="82, 454, 855, 72" FuzzySelectorArgument="&lt;webctrl type='' class='h1_title_indexed' parentid='scroll-wrap' tag='DIV' aaname='                to           ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='1 Indian Rupee to US Dollar' /&gt;" Guid="a8feef8d-7072-4338-960b-336e1abf3ec2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1888acd8903084cd963a9adb79494e32.png" xmlns="">0KAmOasuBOkixNwr5wF8Gvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

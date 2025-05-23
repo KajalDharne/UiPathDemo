@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l9OjZ4zDKEG6Wb3Lt-ipNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="b04699c0-c8f7-4797-b57e-d402a7b485a6" CvType="AnyWordGroup" DesignTimeRectangle="704, 661, 488, 105" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='numberformat' tabindex='4' tag='INPUT' /&gt;" Guid="73993852-337f-4a49-9567-641472561c09" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b04699c0-c8f7-4797-b57e-d402a7b485a6" CvTextArea="791, 572, 200, 25" CvTextArgument="USD US Dollar" CvType="Text" DesignTimeRectangle="704, 534, 488, 103" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='cc-main-conversion-block' tag='DIV' /&gt;" Guid="39091e37-66d0-4661-b3a8-8922af8e77c9" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b448f17870dc5a42046dc31442daaae1.png" xmlns="">0mt04PhrGHEOh5D66r9jDVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

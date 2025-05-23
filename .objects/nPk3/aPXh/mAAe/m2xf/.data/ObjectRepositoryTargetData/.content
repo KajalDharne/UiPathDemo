@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Zft8zafRrUawITB2WaBwPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="oanda.com/currency-converter/en" CVScreenId="c256f519-d14c-4f54-9dc8-7d5bfa1f692f" CvElementArea="126, 593, 491, 105" CvType="InputBox" DesignTimeRectangle="563, 624, 42, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='Open' tag='BUTTON' /&gt;" Guid="b2c65020-466a-457d-9176-54176b132e3b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Currency Converter | Foreign Exchange Rates | OANDA' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="291, 617, 227, 57" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='baseCurrency_currency_autocomplete' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='baseCurrency_currency_autocomplete' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="317ed2cc-fdc2-48c9-82cf-27f4878c04ff" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ab000f87bfac1494bc4e48a6df606fdb.png" xmlns="">0FBD21U33UE-Oz-h-IpKyoA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
